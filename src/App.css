@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400);
+@import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+
+
+.inner {
+  padding: 1em;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  -webkit-border-radius: 4px; 
+  -moz-border-radius: 4px; 
+  border-radius: 4px; 
+
+}
+td{
+  margin-left: 2rem;
+}
+
+.rating {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.rating-num {
+  color: #333333;
+  font-size: 72px;
+  font-weight: 100;
+  line-height: 1em; 
+}
+
+.rating-stars {
+  font-size: 20px;
+  color: #E3E3E3;
+  margin-bottom: .5em;
+}
+.rating-stars .active {
+  color: #737373;
+}
+
+.rating-users {
+  font-size: 14px;
+}
+
+.histo {
+  float: left;
+  width: 50%;
+  font-size: 13px;
+}
+
+.histo-star {
+  float: left;
+  padding: 3px;
+
+}
+
+.histo-rate {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+.bar-block {
+  margin-left: 5px;
+  color: black;
+  display: block;
+  float: left;
+  width: 75%;
+  position: relative;
+}
+
+.bar {
+  padding: 4px;
+  display: block;
+}
+
+#bar-five {
+  width: 0;
+  background-color: #9FC05A;
+}
+
+#bar-four {
+  width: 0;
+  background-color: #ADD633;
+}
+
+#bar-three {
+  width: 0;
+  background-color: #FFD834;
+}
+
+#bar-two {
+  width: 0;
+  background-color: #FFB234;
+}
+
+#bar-one {
+  width: 0;
+  background-color: #FF8B5A;
+}
+
+
+.progress {
+  position: absolute;   
+  height: 160px;
+  width: 160px;
+  cursor: pointer;
+  
+  
+ 
+}
+
+.progress-circle {
+transform: rotate(-90deg);
+margin-top: -40px;
+}
+
+.progress-circle-back {
+fill: none; 
+stroke: #D2D2D2;
+stroke-width:10px;
+}
+
+.progress-circle-prog {
+fill: none; 
+stroke: #7E3451;
+stroke-width: 10px;  
+stroke-dasharray: 100 999;    
+stroke-dashoffset: 0px;
+  transition: stroke-dasharray 0.7s linear 0s;
+}
+
+.progress-text {
+width: 100%;
+position: absolute;
+top: 60px;
+text-align: center;
+font-size: 2em;
+}
+.Footer a{
+  color: white;
+  line-height: 1.3rem;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.Footer p{
+  margin: 0;
+  font-size: .96em;
+  line-height: 1.2rem;
+}
+
+footer i{
+  color: gold;
+}
+
+footer span{
+  font-size: .75em;
+  cursor: pointer;
+}
+.borderline{
+   border-bottom: 3px solid white;
+height: 300px;
+}

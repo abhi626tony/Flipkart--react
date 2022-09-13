@@ -1,0 +1,27 @@
+
+/* .son123{
+  flex-flow: column;
+} */
+tr{
+  margin-left: 3rem;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.block {
+  padding: 1rem;
+  
+  border: 1px solid rgb(198, 193, 183);
+  min-width: 2rem;
+
+  
+  }
+ 
+  
